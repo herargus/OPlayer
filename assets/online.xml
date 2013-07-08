@@ -6,13 +6,10 @@
   </head>
   <body>
     <media id="001" version="21" title="sbs plus" image="http://cn.daroonsoft.com/images/cctv_1.png" guide="cctv1">
-        <ref href="rtmp://nlive.sbs.co.kr/sbspluspc?u=/sbsplus3.stream" width="384" height="288" bitrate="755" />
+        <ref href="rtmp://nlive.sbs.co.kr/sbspluspc?u=/sbsplus3.stream" width="640" height="360" />
     </media>
-    <media id="002" version="18" title="CCTV-2 财经" image="http://cn.daroonsoft.com/images/cctv_2.png"  guide="cctv2">
-        <ref href="mms://bupt02.video.edu.cn/CCTV-2" width="640" height="480" bitrate="1044" />
-                <ref href="rtsp://114.255.201.246/cctv2_256_h264.sdp" width="320" height="240" bitrate="548" />
-                <ref href="mms://211.138.120.114/cctv2" width="512" height="384" bitrate="544" />
-                <ref href="http://cntv.itv.doplive.com.cn/live592/index_128k.m3u8" width="320" height="240" bitrate="256" />
+    <media id="002" version="18" title="sbs espn" image="http://cn.daroonsoft.com/images/cctv_2.png"  guide="cctv2">
+        <ref href="rtmp://nlive.sbs.co.kr/sbsespnpc?/sbsespn3.stream" width="640" height="360" />
     </media>
     <media id="003" version="15" title="CCTV-3 综艺" image="http://cn.daroonsoft.com/images/cctv_3.png"  guide="cctv3"
         desc="中央电视台综艺频道是以播出音乐及歌舞节目为主的专业频道，于1995年11月30日正式播出，通过亚太1A卫星覆盖全国，每天播出19小时左右。" >
